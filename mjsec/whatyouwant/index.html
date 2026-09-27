@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WHATYOUWANT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" id="logo" class="logo">WHATYOUWANT</a>
+    <form id="searchForm"><input type="search" id="searchInput" placeholder="제목으로 검색"><button>🔍</button></form>
+  </header>
+  <div id="hero"><h1 id="heroTitle"></h1><p id="heroOverview"></p><button id="heroFav" hidden></button></div>
+  <p id="status" hidden></p>
+  <section id="searchSection" hidden>
+    <div class="row-head"><h2 id="searchTitle"></h2><button id="clearBtn" class="text-btn">✕ 검색 닫기</button></div>
+    <div id="searchGrid" class="grid"></div>
+  </section>
+  <section><h2>지금 뜨는 인기 영화</h2><div id="popularRow" class="row"></div></section>
+  <section><h2>내가 찜한 리스트</h2><div id="favoriteRow" class="row"></div></section>
+  <script src="script.js"></script>
+</body>
+</html>
